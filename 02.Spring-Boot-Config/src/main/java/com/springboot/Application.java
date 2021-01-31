@@ -13,6 +13,7 @@ import com.springboot.bean.TestConfigBean;
 public class Application {
 	
 	public static void main(String[] args) {
+
 		SpringApplication app = new SpringApplication(Application.class);
 		app.setAddCommandLineProperties(false);
 		app.run(args);
